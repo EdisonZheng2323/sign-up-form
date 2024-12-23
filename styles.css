@@ -1,3 +1,6 @@
+:root {
+  --green: #596D48;
+}
 body, html {
   width: 100vw;
   height: 100vh;
@@ -92,7 +95,6 @@ a {
   width: 100%;
   height: 37vh;
   position: relative;
-  box-shadow: black 10px 10px;
   flex: auto;
   
 }
@@ -138,6 +140,29 @@ input:focus {
   box-shadow: 2px 2px rgb(250, 250, 250);
 }
 
+#bottom-right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem ;
+  padding-left: 2rem;
+  gap: 20px;
+}
+
+#submit {
+  width: 180px;
+  height: 40px;
+  color: white;
+  background-color: var(--green);
+  border-radius: 5px;
+}
+
+#log-link {
+  color: var(--green);
+}
+
+label{
+  color: gray;
+}
 
 
 
